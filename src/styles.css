@@ -5,6 +5,14 @@
   
   body {
     padding: 60px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .app {
+    width: 40%;
+    min-width: 30rem;
+    margin: auto;
   }
 
   form {
@@ -113,5 +121,10 @@
   @media (max-width: 600px) {
     body {
       padding: 0;
+    }
+    .app {
+      width: 90vw;
+      min-width: 3rem;
+      margin: auto;
     }
   }

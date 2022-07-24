@@ -17,7 +17,7 @@ export const GifExpertApp = () => {
     };
 
   return (
-    <>
+    <div className="app">
         <h1>GifExpertApp</h1>
         <AddCategory onNewCategory={ newCategory => agregarCategoria(newCategory) }/>
         {
@@ -28,6 +28,6 @@ export const GifExpertApp = () => {
             ))
         }
         <DeleteCategory onDeleteCategory= { quitarCategoria } />
-    </>
+    </div>
   )
 }
